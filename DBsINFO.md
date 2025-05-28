@@ -34,10 +34,9 @@ Used for asynchronous communication
 *Synchronous
 
 Sender expects an immediate response
-
 Example: HTTP request
-
 System-1 → HTTP → System-2 (must be online)
+
 --------------------------------------------------------------------------------------------------------
 *Asynchronous
 
@@ -48,4 +47,5 @@ Receiver can process it later
 System-1 → MQ → System-2 (System-2 can be down)
 
 Example: WhatsApp, YouTube Notifications
+
 ------------------------------------------------------------------------------------------------------------
